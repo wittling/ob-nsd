@@ -45,7 +45,7 @@
                             ]
                         }
                     ],
-                    "vimInstanceName":["vim-instance"]
+                    "vimInstanceName":["RegionOne"]
                 }
             ],
             "virtual_link":[
@@ -55,12 +55,12 @@
             ],
             "deployment_flavour":[
                 {
-                    "flavour_key":"m1.small"
+                    "flavour_key":"iperf"
                 }
             ],
             "type":"server",
             "endpoint":"generic",
-            "vnfPackageLocation":"https://gitlab.fokus.fraunhofer.de/openbaton/scripts-test-public.git"
+            "vnfPackageLocation":"https://github.com/wittling/ob-nfv.git"
         },
         {
             "name":"iperfclient",
@@ -115,7 +115,7 @@
                             ]
                         }
                     ],
-                    "vimInstanceName":["vim-instance"]
+                    "vimInstanceName":["RegionOne"]
                 }
             ],
             "virtual_link":[
@@ -125,12 +125,12 @@
             ],
             "deployment_flavour":[
                 {
-                    "flavour_key":"m1.small"
+                    "flavour_key":"iperf"
                 }
             ],
             "type":"client",
             "endpoint":"generic",
-            "vnfPackageLocation":"https://gitlab.fokus.fraunhofer.de/openbaton/scripts-test-public.git"
+            "vnfPackageLocation":"https://github.com/wittling/ob-nfv.git"
         }
     ],
     "vld":[

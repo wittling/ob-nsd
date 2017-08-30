@@ -60,7 +60,7 @@
             ],
             "type":"server",
             "endpoint":"generic",
-            "vnfPackageLocation":"https://github.com/wittling/ob-nfv.git"
+            "vnfPackageLocation":"https://github.com/wittling/ob-nfv-scripts.git"
         },
         {
             "name":"iperfclient",
@@ -130,7 +130,7 @@
             ],
             "type":"client",
             "endpoint":"generic",
-            "vnfPackageLocation":"https://github.com/wittling/ob-nfv.git"
+            "vnfPackageLocation":"https://github.com/wittling/ob-nfv-scripts.git"
         }
     ],
     "vld":[
